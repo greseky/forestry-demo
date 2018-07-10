@@ -26,3 +26,7 @@ fields:
   name: gallery
   label: Gallery
   description: My first gallery
+- type: blocks
+  label: Blocks
+  name: blocks
+  description: your content blocks
