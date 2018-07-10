@@ -1,0 +1,28 @@
+---
+label: testTpl
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Title
+  name: title
+  description: Type a Title
+  config:
+    required: true
+- type: textarea
+  label: Textarea
+  name: textarea
+  description: My first textarea
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  default: "    aaaa\n    "
+- type: file
+  label: Your upload
+  name: your_upload
+  description: My first uploader
+- type: image_gallery
+  name: gallery
+  label: Gallery
+  description: My first gallery
