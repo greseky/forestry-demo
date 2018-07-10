@@ -8,6 +8,7 @@ sub_heading: An introduction to Forestry
 tags:
 - Demo
 - Forestry
+- Test
 layout: post
 banner_image: ''
 ---
